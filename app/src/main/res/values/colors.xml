@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2019 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="colorPrimary">#6ab343</color>
+    <color name="colorPrimaryDark">#388310</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue_button_color">#00a4ff</color>
+    <color name="ok_green_color">#6ab343</color>
+    <color name="selected_green_color">#388310</color>
+    <color name="skip_red_color">#f44336</color>
+    <color name="selected_red_color">#ba000d</color>
+    <color name="black_text_color">#de000000</color>
+    <color name="grey_text_color">#99000000</color>
+    <color name="grey_button_color">#606060</color>
+    <color name="white_text_color">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="dark_red">#dd0000</color>
+    <color name="orange">#ff6700</color>
+    <color name="dark_orange">#dd4500</color>
+    <color name="yellow">#ffde00</color>
+    <color name="dark_yellow">#ddbc00</color>
+    <color name="light_green">#00dd00</color>
+    <color name="dark_light_green">#00bb00</color>
+    <color name="green">#007700</color>
+    <color name="dark_green">#005500</color>
+    <color name="light_blue">#00baff</color>
+    <color name="dark_light_blue">#00a0dd</color>
+    <color name="blue">#0000ff</color>
+    <color name="dark_blue">#0000dd</color>
+    <color name="light_purple">#bb67ff</color>
+    <color name="dark_light_purple">#aa45dd</color>
+    <color name="purple">#bb00dd</color>
+    <color name="dark_purple">#aa00bb</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="dark_magenta">#dd00dd</color>
+    <color name="pink">#ffaaff</color>
+    <color name="dark_pink">#ddaadd</color>
+    <color name="grey">#A3A3A3</color>
+</resources>
