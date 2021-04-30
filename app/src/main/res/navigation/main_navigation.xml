@@ -27,11 +27,11 @@
         <action
             android:id="@+id/action_title_to_game"
             app:destination="@id/game_destination"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@android:anim/slide_out_right"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
             app:launchSingleTop="true"
             app:popEnterAnim="@android:anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_left" />
+            app:popExitAnim="@android:anim/slide_in_left" />
     </fragment>
     <fragment
         android:id="@+id/game_destination"
@@ -41,11 +41,11 @@
         <action
             android:id="@+id/action_game_to_score"
             app:destination="@id/score_destination"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_out_right"
             app:launchSingleTop="true"
-            app:popEnterAnim="@anim/slide_in_right"
-            app:popExitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_in_left"
             app:popUpTo="@+id/title_destination" />
     </fragment>
     <fragment
@@ -56,7 +56,7 @@
         <action
             android:id="@+id/action_restart"
             app:destination="@+id/game_destination"
-            app:enterAnim="@anim/slide_in_right"
+            app:enterAnim="@android:anim/slide_in_left"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_right"
             app:popExitAnim="@anim/slide_out_left"
