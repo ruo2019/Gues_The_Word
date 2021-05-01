@@ -27,8 +27,8 @@
         <action
             android:id="@+id/action_title_to_game"
             app:destination="@id/game_destination"
-            app:enterAnim="@android:anim/slide_in_left"
-            app:exitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
             app:launchSingleTop="true"
             app:popEnterAnim="@android:anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_left" />
@@ -41,8 +41,8 @@
         <action
             android:id="@+id/action_game_to_score"
             app:destination="@id/score_destination"
-            app:enterAnim="@android:anim/slide_in_left"
-            app:exitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
             app:launchSingleTop="true"
             app:popEnterAnim="@android:anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_left"
@@ -56,9 +56,9 @@
         <action
             android:id="@+id/action_restart"
             app:destination="@+id/game_destination"
-            app:enterAnim="@android:anim/slide_in_left"
-            app:exitAnim="@anim/slide_out_left"
-            app:popEnterAnim="@anim/slide_in_right"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_left"
             app:popUpTo="@+id/title_destination" />
         <argument
