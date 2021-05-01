@@ -58,32 +58,13 @@ class GameFragment : Fragment() {
             if (hasFinished) gameFinished()
         } )
 
-        viewModel.score.observe(viewLifecycleOwner, Observer { newScore -> binding.scoreText.text = newScore.toString() })
-        viewModel.word.observe(viewLifecycleOwner, Observer { newWord -> binding })
-        binding.correctButton.setOnClickListener { onCorrect() }
-        binding.skipButton.setOnClickListener { onSkip() }
-        binding.endGameButton.setOnClickListener { onEndGame() }
+        binding.gameViewModel = viewModel
+        binding.lifecycleOwner = viewLifecycleOwner
         updateScoreText()
         updateWordText()
         return binding.root
 
     }
-
-
-    /** Methods for button click handlers **/
-
-    private fun onSkip() {
-        viewModel.onSkip()
-        updateWordText()
-        updateScoreText()
-    }
-
-    private fun onCorrect() {
-        viewModel.onCorrect()
-        updateWordText()
-        updateScoreText()
-    }
-
 
     /** Methods for updating the UI **/
 
@@ -93,10 +74,6 @@ class GameFragment : Fragment() {
 
     private fun updateScoreText() {
         binding.scoreText.text = viewModel.score.value.toString()
-    }
-
-    private fun onEndGame() {
-        gameFinished()
     }
 
     private fun gameFinished() {

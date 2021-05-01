@@ -28,7 +28,7 @@ class GameViewModel : ViewModel() {
                 "house",
                 "computer",
                 "book",
-                "pencil",
+                "pen",
                 "keyboard",
                 "camera",
                 "beef",
@@ -40,12 +40,17 @@ class GameViewModel : ViewModel() {
                 "water",
                 "ice cream",
                 "chiggie nuggies",
+                "scissors",
+                "notes",
+                "hamburger",
+                "lightsaber",
                 "car",
                 "cement",
                 "mouse",
                 "Vitamin C",
                 "printer",
                 "machine"
+
         )
         wordList.shuffle()
     }
